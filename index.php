@@ -1,1 +1,1 @@
-<?php header('location: /indix.html'); ?>
+<?php header('location: /index.html'); ?>
