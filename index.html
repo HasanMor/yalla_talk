@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>yalla talk</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/yalla.css'>
+</head>
+<body >
+    <div class="container" data-0="transform:traslateX(0%);"
+    data-1000="transform:traslateX(-300%);">
+        <section>
+            <div class="content">
+                <center>
+                <img id="logo" src="yalla_talk_logo/logo.png"/>
+            </center>
+            </div>
+        </section>
+        <section>
+            <div class="content">
+                <div id="body">
+                join our family and enjoy:&nbsp;&nbsp;&nbsp;
+                <div class="dropping-texts">
+                  <div>the fastest</div>
+                  <div>funniest</div>
+                  <div>AND most secursd</div>
+                  <div>PLATRORM EVER</div>
+                </div>
+            </div>
+            </div>
+        </section>
+        <section>
+            <div class="content">
+                <center>
+                <img  id="ff" src="yalla_talk_logo/fandf.png"/>
+                <p id="para">BUILT WITH<br>
+               <span id="s11"> FLUTTER &nbsp;</span>&<span id="s22"> &nbsp;FIREBASE</span> </p>
+            </center>
+            </div>
+        </section>
+        <section>
+            <div class="content">
+                <h2 style="font-size: xx-large;">DOWNLOAD NOW</h2>
+                <h4 style="font-size: x-large;">AND JOIN OUR world</h4>
+                <a href="yalla_talk.apk" download>Download <span></span></a>
+                
+            </div>
+        </section>
+    </div>
+    <script>
+        let button =document.querySelector("body a");
+        button.addEventListener("click",()=>{
+            const span = document.querySelector("a span");
+            button.style.visiblity="visiblie";
+            setTimeout(()=>{
+                span.style.visiblity="hidden";
+                button.style.transition=".3s ease-in-out";
+                button
+                .style.paddingRight="0px";
+            },3000);
+        })
+    </script>
+    <script type="text/javascript" src="skrollr.js"></script>
+	<script type="text/javascript">
+	var s = skrollr.init();
+	</script>
+</body>
+</html>
